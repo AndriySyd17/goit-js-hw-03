@@ -1,9 +1,10 @@
 function makeArray(firstArray, secondArray, maxLength) {
-    const makeArray = [...firstArray, ...secondArray];
-    if (makeArray.lenght > maxLength) {
-        return makeArray.slice(0, maxLength);
+    let newArray = [...firstArray, ...secondArray];
+
+    if (newArray.length > maxLength) {
+        return newArray.slice(0, maxLength);
     } else {
-        return makeArray;
+        return newArray;
     }
 }
 
