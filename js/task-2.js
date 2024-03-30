@@ -2,7 +2,7 @@ function makeArray(firstArray, secondArray, maxLength) {
     const newArray = firstArray.contact(secondArray);
     if (newArray.lenght > maxLength) {
         return newArray.slice(0, maxLength);
-    } esle {
+    } else {
         return newArray;
     }
 }
